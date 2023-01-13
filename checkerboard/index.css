@@ -1,0 +1,7 @@
+.square:nth-child(1n) {
+  background-color: red;
+}
+
+.square:nth-child(2n) {
+  background-color: black;
+}
