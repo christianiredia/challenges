@@ -4,10 +4,10 @@ const markWeight = 78;
 const johnHeight = 1.95;
 const johnWeight = 92;
 
-let markBMI = markWeight / markHeight ** 2;
-let johnBMI = johnWeight / johnHeight ** 2;
+const markBMI = markWeight / markHeight ** 2;
+const johnBMI = johnWeight / johnHeight ** 2;
 
-let markHigherBMI = markBMI > johnBMI;
+const markHigherBMI = markBMI > johnBMI;
 
 console.log(markHigherBMI);
 
@@ -18,9 +18,9 @@ const howTallIsMark = 1.88;
 const johnMass = 85;
 const howTallIsJohn = 1.76;
 
-let BmiMark = markMass / howTallIsMark ** 2;
-let BmiJohn = johnMass / howTallIsJohn ** 2;
+const BmiMark = markMass / howTallIsMark ** 2;
+const BmiJohn = johnMass / howTallIsJohn ** 2;
 
-let isMarkBmiHigher = BmiMark > BmiJohn;
+const isMarkBmiHigher = BmiMark > BmiJohn;
 
 console.log(isMarkBmiHigher);
