@@ -22,3 +22,6 @@ if (dolphinsAverage > koalasAverage && dolphinsAverage >= 100) {
 } else {
   console.log("Its a DRAW!");
 }
+
+// Data Bonus 1 Results: `Koalas has the higher average! Koalas average was ${koalasAverage}`
+// Data Bonus 2 Results: "Its a Draw!"
