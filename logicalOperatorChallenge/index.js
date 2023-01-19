@@ -11,11 +11,11 @@ const dolphinsAverage =
 const koalasAverage =
   (koalasFirstScore + koalasSecondScore + koalasThirdScore) / 3;
 
-if (dolphinsAverage > koalasAverage) {
+if (dolphinsAverage > koalasAverage && dolphinsAverage >= 100) {
   console.log(
     `Dolphins has the higher average! Dolphins average was ${dolphinsAverage}`
   );
-} else if (koalasAverage > dolphinsAverage) {
+} else if (koalasAverage > dolphinsAverage && koalasAverage >= 100) {
   console.log(
     `Koalas has the higher average! Koalas average was ${koalasAverage}`
   );
