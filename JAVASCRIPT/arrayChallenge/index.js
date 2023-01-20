@@ -1,9 +1,5 @@
 const calcTip = (value) => {
-  if (value >= 50 && value <= 300) {
-    return value * 0.15;
-  } else {
-    return value * 0.2;
-  }
+  return value >= 50 && value <= 300 ? value * 0.15 : value * 0.2;
 };
 
 const bills = [125, 555, 44];
