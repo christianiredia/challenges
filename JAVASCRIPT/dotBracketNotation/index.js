@@ -12,5 +12,5 @@ console.log(
 country.population += 2;
 console.log(country.population);
 
-country.population -= 2;
+country["population"] -= 2;
 console.log(country.population);
