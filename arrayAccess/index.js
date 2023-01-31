@@ -4,3 +4,5 @@ const leaderboard = ["Harry", "Lua", "Hermione", "Bellatrix"]; //DON'T TOUCH THI
 
 leaderboard[1] = "Luna";
 leaderboard[3] = "Draco";
+
+console.log(leaderboard);
